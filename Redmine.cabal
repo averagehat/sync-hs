@@ -21,7 +21,7 @@ Library
     build-depends: base >=2 && <5, time -any, bytestring -any, http-conduit >= 2.1.0, http-types,
                    aeson >= 0.11.0, HTTP -any, network -any, text, transformers, containers, http-client-tls,
                    resourcet, connection, MissingH
-    exposed-modules: Redmine.Types, Redmine.Manager, Redmine.Get, Redmine.JSON, Redmine.Rest, Redmine.Post, Redmine.Put
+    exposed-modules: Redmine.Types, Redmine.Manager, Redmine.Get, Redmine.JSON, Redmine.Rest, Redmine.Post, Redmine.Put, Redmine.Lib
     buildable: True
     hs-source-dirs: src
 
